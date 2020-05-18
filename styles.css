@@ -1,0 +1,217 @@
+#title {
+    background-color: cornflowerblue;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.meet {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.testimonial-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.rotate {
+    transform: rotate(25deg);
+    width: 50%;
+    position: absolute;
+    margin-left: 75px
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.dwn {
+    margin: 5% 3% 5% 0;
+}
+
+.stonks {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+/* features */
+.gif {
+    width: 28%;
+}
+
+.gif3 {
+    width: 45%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.boxbox {
+    text-align: center;
+    padding: 5%
+}
+
+.h3 {
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fas {
+    color: cornflowerblue;
+    margin-bottom: 10px;
+}
+
+.fas:hover {
+    color: slateblue;
+}
+
+/* testimonial */
+
+#testimonials {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+}
+
+.dogimg {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px 20px 20px 20px;
+}
+
+#press {
+    text-align: center;
+    padding: 2% 2% 2%;
+    background-color: cornflowerblue;
+}
+
+.press-logo {
+    margin: 25px;
+    width: 15%;
+}
+
+/* Pricing tab  */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-col {
+    padding: 5% 2%;
+}
+
+/* footer */
+
+#cta {
+    background-color: cornflowerblue;
+    padding: 100px 15px;
+    color: white;
+    text-align: center;
+}
+
+.cta-ok {
+    font-size: 50px;
+    text-align: center;
+    line-height: 5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.check {
+    margin: 2% 2% 2% 0;
+}
+
+#footer {
+    padding: 5%;
+    text-align: center;
+}
+
+.social {
+    margin: 10px 20px;
+}  
+
+@media(max-width: 1300px) {
+    .meet{
+        font-size: 40px;
+        text-align: center;
+    }
+    .rotate{
+        transform: rotate(0);
+        position: static;
+        width: 80%;
+    }
+    .dwn{
+
+    }
+}
+
+@media(max-width:800px){
+    .meet{
+        font-size: 40px;
+        text-align: center;
+    }
+    .rotate{
+        transform: rotate(0);
+        position: static;
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    .dwn{
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .testimonial-text{
+        font-size: 30px;
+    }
+    #pricing{
+        padding: 20px;
+    }
+    .price-col{
+        font-size: 20px;
+    }
+    .OKBRO{
+        font-size: 30px;
+    }
+    .cta-ok{
+        font-size: 30px;
+        padding: 0px;
+        line-height: 50px;
+    }
+    #cta{
+        padding: 50px 30px;
+    }
+}
